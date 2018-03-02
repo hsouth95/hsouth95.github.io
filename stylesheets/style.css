@@ -1,0 +1,225 @@
+/*
+ * Import nib
+ */
+/*
+ * Grab a custom font from Google
+ */
+@import url("http://fonts.googleapis.com/css?family=Quicksand");
+/*
+ * Nib provides a CSS reset
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+/*
+* Colour Scheme is as follows:
+* #E44424
+* #67BCDB
+* #A2AB58
+* #FFFFFF
+*/
+/*
+ * Store the main color and
+ * background color as variables
+ */
+body {
+  font-family: 'Quicksand';
+  background-color: #faf9f0;
+  color: #444;
+}
+a {
+  color: #a2ab58;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #828a45;
+}
+header {
+  font-family: 'Quicksand';
+  padding: 50px 10px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  margin-top: 0;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  background-color: #e44424;
+  border-bottom: 1px solid #a52c14;
+  text-shadow: 0px -1px 0px #a52c14;
+  -webkit-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.shrink {
+  padding: 20px 10px;
+}
+#profile-pic {
+  height: 300px;
+  width: auto;
+  border-radius: 150px;
+}
+#wrapper {
+  margin: 50px auto;
+  padding: 50px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  overflow: hidden;
+}
+#wrapper h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+#wrapper h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.intro {
+  margin-bottom: 50px;
+}
+.main-content {
+  float: left;
+}
+.main-content p {
+  margin-bottom: 20px;
+}
+p {
+  line-height: 1.8;
+  font-size: 1.5em;
+}
+.skill-list {
+  margin-top: 10px;
+}
+.skill-list li {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.project-row {
+  margin-bottom: 20px;
+}
+.project {
+  overflow: break-word;
+}
+.project p {
+  font-size: 1em;
+  margin-top: 5px;
+}
+.project h2 {
+  margin-bottom: 5px;
+}
+.skill-tag {
+  border: 1px solid #a52c14;
+  border-radius: 7px;
+  background-color: #e16e56;
+  padding: 2px;
+  padding-right: 3px;
+  padding-left: 3px;
+  display: inline;
+  margin-right: 5px;
+}
+.skill-tag:hover {
+  cursor: default;
+}
+footer {
+  margin: 50px auto;
+  padding: 20px;
+  padding-left: 50px;
+  border-top: 1px dotted #ccc;
+  font-size: 13px;
+}
